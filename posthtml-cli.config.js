@@ -1,8 +1,9 @@
 module.exports = {
   plugins: [
     require('posthtml-beautify')({
+      rules: {
         blankLines: false,
-        test: console.log('Config 2'),
+      },
     }),
   ],
 };
